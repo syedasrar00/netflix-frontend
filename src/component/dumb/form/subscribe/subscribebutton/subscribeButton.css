@@ -21,3 +21,8 @@
     color: white;
     padding: 13px 20px 10px 0px;
 }
+.subscribe-btn-container:hover  {
+    background-color: #c2050f; 
+    transition-delay: 100ms;
+   
+}
