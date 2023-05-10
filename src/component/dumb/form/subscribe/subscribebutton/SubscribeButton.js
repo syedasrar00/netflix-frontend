@@ -1,16 +1,14 @@
 import React from 'react'
 import './subscribeButton.css'
+import { IoIosArrowForward } from 'react-icons/io'
 
 export default function SubscribeButton({ children, ...restProps}) {
   return (
-    <div>
+    <div className='subscribe-btn-container'>
         <a className='subscribe-btn' href='./signup' {...restProps}>
-            {children}
+            {children} 
         </a>
-        <img className='subscribe-btn-arrow'
-        src=''
-        alt='Try Now'
-        />
+        <IoIosArrowForward className='subscribe-btn-arrow' />
     </div>
   )
 }

@@ -8,6 +8,8 @@ import SignInButton from '../dumb/header/SignInButton/SignInButton'
 import SubscribeWrapper from '../dumb/form/subscribe/subscribewrapper/SubscribeWrapper'
 import SubscribeEmail from '../dumb/form/subscribe/subscribeemail/SubscribeEmail'
 import SubscribeButton from '../dumb/form/subscribe/subscribebutton/SubscribeButton'
+import FeatureDescription from '../dumb/header/featureDescription/FeatureDescription'
+import SubscribeTitle from '../dumb/form/subscribe/subscribeTitle/SubscribeTitle'
 
 function HeaderComponent() {
   return (
@@ -20,9 +22,11 @@ function HeaderComponent() {
           <FeatureTitle className='feature-title-home'>
             Unlimited movies, TV shows and more.
           </FeatureTitle>
+          <FeatureDescription>Watch anywhere. Cancel anytime.</FeatureDescription>
         </FeatureWrapper>
-        <SubscribeWrapper>
-          <SubscribeEmail type='email'/>
+        <SubscribeTitle>Ready to watch? Enter your email to create or restart your membership.</SubscribeTitle>
+        <SubscribeWrapper className='subscribe-wrapper-home'>
+          <SubscribeEmail type='email' placeHolder='Email Address'/>
           <SubscribeButton >Get Started</SubscribeButton>
         </SubscribeWrapper>
     </HeaderWrapper>

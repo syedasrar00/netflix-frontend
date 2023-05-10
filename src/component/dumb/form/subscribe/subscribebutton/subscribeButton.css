@@ -1,0 +1,23 @@
+.subscribe-btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e50914;
+    width: 210px;
+}
+.subscribe-btn{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    width: fit-content;
+    align-items: center;
+    padding: 10px 0px 10px 20px;
+    font-size: 26px;
+    font-weight: 500;
+}
+.subscribe-btn-arrow{
+    font-size: 26px;
+    font-weight: bolder;
+    color: white;
+    padding: 13px 20px 10px 0px;
+}
