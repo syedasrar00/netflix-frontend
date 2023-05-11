@@ -6,10 +6,10 @@ import FooterComponent from '../component/dumb/footer/footerComponent/FooterComp
 
 function Homepage() {
   return (
-    <div className='homepage' style={{backgroundColor:'black', paddingBottom:"50px"}}>
+    <div className='homepage' style={{backgroundColor:'black'}}>
         <HeaderComponent />
         <AccordianComponent />
-        <FooterComponent />
+        <FooterComponent textColor='rgb(94, 94, 94)'/>
     </div>
   )
 }

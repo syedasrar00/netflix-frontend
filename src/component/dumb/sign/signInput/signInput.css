@@ -1,0 +1,14 @@
+.sign-input{
+    margin: 10px 0px;
+    font-size: 16px;
+    padding: 14px 14px;
+    border-radius: 4px;
+    background-color: rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.sign-input::placeholder { 
+    color: rgb(105, 105, 105);
+    opacity: 1.0; 
+    font-weight: 500;
+  }

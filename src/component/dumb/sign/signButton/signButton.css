@@ -1,17 +1,21 @@
-.signin-button{
+.sign-button{
     display: block;
     background-color: #e50914;
     height: fit-content;
     text-decoration: none;
-    padding: 10px 16px;
+    padding: 14px;
     cursor: pointer;
     color : white;
-    border-radius: 4px;
-    border: 0;
-    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
     font-weight: 600;
+    min-width : 300px;
+    text-align: center;
+    margin: 27px 0px 8px 0px;
+    border-radius: 4px;
 }
-.signin-button:hover {
+.sign-button:hover {
     background-color: #c2050f; 
     transition-delay: 100ms;
    

@@ -1,0 +1,63 @@
+.signin-container{
+    max-width: 300px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 70px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.rem-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(165, 165, 165);
+    margin-top: -5px;
+}
+.need-help{
+    font-size: 13px;
+}
+.remember-me{
+    width: 17px;
+    height: 17px;
+    background-color :rgb(165, 165, 165);
+}
+.remember-me-text{
+    font-size: 13px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.signup{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.signup-text{
+    color: grey;
+}
+.signup-link{
+    text-decoration: none;
+    color: white;
+    padding-left: 4px;
+}
+.signup-link:hover{
+    text-decoration: underline;
+}
+.learn-more{
+    text-decoration: none;
+    color : rgb(0, 57, 243);
+}
+.learn-more:hover{
+    text-decoration: underline;
+}
+.learn-more-text{
+    font-size: 14px;
+    color : grey;
+}
+.learnmore{
+    margin-top: -20px;
+}
