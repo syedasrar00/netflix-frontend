@@ -10,11 +10,11 @@ export default function SignInComponent() {
       <SignTitle >Sign In</SignTitle>
       <SignInput 
         type='text'
-        placeHolder='Email or phone number'
+        placeholder='Email or phone number'
         />
         <SignInput 
         type='password'
-        placeHolder='Password'
+        placeholder='Password'
         />
         <SignButton>Sign In</SignButton>
         <div className='rem-container'>

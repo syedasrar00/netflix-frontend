@@ -62,7 +62,7 @@ export default function AccordianComponent({ children, ...restProps}) {
             </div>
             <SubscribeTitle>Ready to watch? Enter your email to create or restart your membership.</SubscribeTitle>
             <SubscribeWrapper className='subscribe-wrapper-home'>
-                <SubscribeEmail type='email' placeHolder='Email Address'/>
+                <SubscribeEmail type='email' placeholder='Email Address'/>
                 <SubscribeButton >Get Started</SubscribeButton>
             </SubscribeWrapper>
         </div>
