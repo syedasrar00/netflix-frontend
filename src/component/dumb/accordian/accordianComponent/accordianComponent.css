@@ -2,7 +2,7 @@
     color: white;
     max-width: 1000px;
     margin: auto;
-    padding: 20px 40px;
+    padding: 20px 40px 60px 40px;
 }
 .accordian-heading{
     font-size: 2.75rem;
@@ -10,4 +10,8 @@
     text-align: center;
     margin-top: 60px;
     margin-bottom: 40px;
+}
+.accordian-item-container{
+    margin : 30px 20px;
+    padding-bottom: 30px;
 }

@@ -4,6 +4,10 @@ import AccordianTitle from '../accordianTitle/AccordianTitle'
 import AccordianText from '../accordianText/AccordianText'
 import AccordianItem from '../accordianItem/AccordianItem'
 import Seperator from '../../seperator/Seperator'
+import SubscribeButton from '../../form/subscribe/subscribebutton/SubscribeButton'
+import SubscribeEmail from '../../form/subscribe/subscribeemail/SubscribeEmail'
+import SubscribeTitle from '../../form/subscribe/subscribeTitle/SubscribeTitle'
+import SubscribeWrapper from '../../form/subscribe/subscribewrapper/SubscribeWrapper'
 
 export default function AccordianComponent({ children, ...restProps}) {
     const data = [
@@ -38,7 +42,7 @@ export default function AccordianComponent({ children, ...restProps}) {
         <Seperator />
         <div className='accordian-component'>
             <h1 className='accordian-heading'>Frequently Asked Questions</h1>
-            {data.map((item ,index) => 
+            <div className='accordian-item-container'>{data.map((item ,index) => 
                 <AccordianItem key={index}>
                     <AccordianTitle 
                         isOpen = {accordianState[index]}
@@ -55,7 +59,14 @@ export default function AccordianComponent({ children, ...restProps}) {
                             {item.title}</AccordianTitle>
                     <AccordianText isOpen={accordianState[index]}>{item.text}</AccordianText>
                 </AccordianItem>)}
+            </div>
+            <SubscribeTitle>Ready to watch? Enter your email to create or restart your membership.</SubscribeTitle>
+            <SubscribeWrapper className='subscribe-wrapper-home'>
+                <SubscribeEmail type='email' placeHolder='Email Address'/>
+                <SubscribeButton >Get Started</SubscribeButton>
+            </SubscribeWrapper>
         </div>
+        <Seperator />
     </>
   )
 }

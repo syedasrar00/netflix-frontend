@@ -1,0 +1,20 @@
+.footer-section{
+    margin: 30px 360px;
+    color: rgb(94, 94, 94);
+}
+.footer-wrapper{
+    display : flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.heading{
+    font-size: 20px;
+}
+.footer-end{
+    font-size: 15px;
+}
