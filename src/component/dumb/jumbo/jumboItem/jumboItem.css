@@ -1,0 +1,11 @@
+.jumbo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.text-container{
+    max-width: 500px;
+}
