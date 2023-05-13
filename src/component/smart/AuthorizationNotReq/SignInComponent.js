@@ -1,8 +1,8 @@
 import React from 'react'
 import './CSS/signInComponent.css'
-import SignTitle from '../dumb/sign/signTitle/SignTitle'
-import SignInput from '../dumb/sign/signInput/SignInput'
-import SignButton from '../dumb/sign/signButton/SignButton'
+import SignTitle from '../../dumb/AuthorizationNotReq/sign/signTitle/SignTitle'
+import SignInput from '../../dumb/AuthorizationNotReq/sign/signInput/SignInput'
+import SignButton from '../../dumb/AuthorizationNotReq/sign/signButton/SignButton'
 
 export default function SignInComponent() {
   return (

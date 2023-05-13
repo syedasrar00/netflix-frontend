@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../component/dumb/header/navbar/Navbar'
-import Logo from '../component/dumb/header/logo/Logo'
-import FooterComponent from '../component/dumb/footer/footerComponent/FooterComponent'
-import SignInComponent from '../component/smart/SignInComponent'
+import Navbar from '../component/dumb/AuthorizationNotReq/header/navbar/Navbar'
+import Logo from '../component/dumb/AuthorizationNotReq/header/logo/Logo'
+import FooterComponent from '../component/dumb/AuthorizationNotReq/footer/footerComponent/FooterComponent'
+import SignInComponent from '../component/smart/AuthorizationNotReq/SignInComponent'
 
 function SignInPage() {
   return (
