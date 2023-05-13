@@ -1,8 +1,8 @@
 import React from 'react'
 import './logo.css'
-function Logo() {
+function Logo({ ...props }) {
   return (
-        <img className='logo' src='images/general/Netflix-Logo.png' alt='Netflix Logo'/>
+        <a {...props}><img className='logo' src='images/general/Netflix-Logo.png' alt='Netflix Logo'/></a>
   )
 }
 

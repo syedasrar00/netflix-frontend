@@ -1,3 +1,11 @@
 .nav-link{
-    
+    color : whitesmoke;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color : rgb(150, 150, 150);
+    transition: 1000ms;
 }

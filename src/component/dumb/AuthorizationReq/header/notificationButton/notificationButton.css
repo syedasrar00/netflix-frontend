@@ -1,0 +1,43 @@
+.notification-icon{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 5px;
+    padding : 10px;
+    cursor: pointer;
+}
+.notification-box{
+    position: absolute;
+    translate: -50% -50%;
+    max-width: 0px;
+    max-height: 0px;
+}
+.notification-container {
+    position: relative;
+    border-top: 3px solid white;
+    border-bottom: 1px solid grey;
+    background-color: black;
+    min-width : 400px;
+    min-height : 200px; 
+    top : 20px;
+    right : 350px;
+    overflow: hidden;
+    color: rgb(151, 151, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.775;
+    font-size: 15px;
+}
+.notification-container:hover {
+    opacity: 1.0;
+    transition: 500ms;
+}
+.arrow{
+    width: 20px;
+    height :20px;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    transform: rotate(45deg);
+    top: 15px;
+}

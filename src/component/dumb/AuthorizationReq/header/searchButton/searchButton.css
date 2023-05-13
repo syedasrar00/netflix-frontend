@@ -1,0 +1,26 @@
+.search-icon {
+    color : white;
+    font-size: 30px;
+    transform: rotate(345deg);
+    cursor: pointer;
+}
+.text-box {
+    margin: 5px 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 60px;
+    padding-right: 20px;
+    background-color: black;
+    border : 2px solid white;
+    font-size: 17px;
+    color : white;
+    
+}
+.text-box-container{
+    display: flex;
+    align-items: center;
+}
+.text-box::placeholder { 
+    color: rgb(151, 151, 151);
+    opacity: 1.0; 
+  }
