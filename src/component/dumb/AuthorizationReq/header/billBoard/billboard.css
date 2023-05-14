@@ -1,8 +1,18 @@
-body{
-    
+.top-10-container{
+    display: flex;
+    align-items: center;
+    gap : 10px;
+}
+.top-10-icon {
+    width: 30px;
+    height: fit-content;
+}
+.top-rank{
+    color: white;
+    font-size: 20px;
 }
 .billboard-container{
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: 55px;
     padding-bottom: 70px;
     max-width : 450px;
@@ -10,8 +20,7 @@ body{
 .billboard-title-img{
     max-width : 650px;
     padding-top: 20px;
-    margin-bottom : 30px;
-    padding-bottom: 20px;
+    margin-bottom : 10px;
 }
 .billboard-desc{
     color : rgb(234, 234, 234);
