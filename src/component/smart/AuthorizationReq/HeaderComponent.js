@@ -18,7 +18,7 @@ function HeaderComponent() {
   },[])
   return (
     <HeaderWrapper className='header'>
-        <Navbar className='navbar-home' style={{color:'white'}}>
+        <Navbar style={{color:'white'}}>
             <div className='left-nav'>
               <Logo href='./'/>
               <div className='nav-links'>

@@ -3,4 +3,12 @@
     justify-content: space-between;
     align-items: center;
     padding : 5px 50px;
+    position: sticky;
+    -webkit-transition: background-color 1s ease-out;
+    top: 0;
+    z-index: 10;
+}
+.scroll{
+    background-color: black;
+    -webkit-transition: background-color 1s ease-out;
 }
