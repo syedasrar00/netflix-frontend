@@ -8,8 +8,10 @@ export default function Billboard({ children, ...props}) {
     <div className='billboard-container' {...props}>
         <img src='images/home/bg-img-title.png' alt='' className='billboard-title-img'/>
         <p className='billboard-desc'>{children}</p>
-        <button className='play-button'><BsFillPlayFill className='play-btn-icon' />Play</button>
-        <button className='more-info-button'><AiOutlineInfoCircle className='more-info-btn-icon' />More Info</button>
+        <div className='btn-container'>
+          <button className='play-button'><BsFillPlayFill className='play-btn-icon' />Play</button>
+          <button className='more-info-button'><AiOutlineInfoCircle className='more-info-btn-icon' />More Info</button>
+        </div>
     </div>
   )
 }

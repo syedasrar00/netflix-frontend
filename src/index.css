@@ -1,15 +1,14 @@
-
 @font-face {
-  font-family: netflix-sans-bold;
-  src: url(../public/font/NetflixSansBold.otf);
   font-family: netflix-sans-light;
   src: url(../public/font/NetflixSansLight.otf);
+}
+@font-face {
   font-family: netflix-sans-medium;
   src: url(../public/font/NetflixSansMedium.otf);
 }
 body {
   margin: 0;
-  font-family: netflix-sans-bold,netflix-sans-light,netflix-sans-medium;
+  font-family: netflix-sans-light,netflix-sans-medium;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
