@@ -1,9 +1,5 @@
 body{
-    background-image: url(../../../../../../public/images/home/home-page-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top left;
-    height: 100vh;
+    
 }
 .billboard-container{
     margin-top: 60px;
