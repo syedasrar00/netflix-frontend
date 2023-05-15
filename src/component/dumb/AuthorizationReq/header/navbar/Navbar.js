@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './navbar.css'
 
 
@@ -7,9 +7,15 @@ function Navbar({ children, ...restProps}) {
     const changeNavBg = () =>
     {
       window.scrollY >= 40 ? setNavBg(true) : setNavBg(false);
-      console.log(window.scrollY)
     }
-    window.addEventListener('scroll', changeNavBg);
+    
+    useEffect(() => {
+      window.addEventListener('scroll', changeNavBg);
+      return () => {
+        window.removeEventListener('scroll',changeNavBg)
+      }
+    }, [])
+    
     return (
       <nav className={ navBg ?'navbar-home scroll':'navbar-home'} {...restProps}>
           {children}

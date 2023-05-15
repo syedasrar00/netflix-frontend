@@ -4,7 +4,7 @@ import Logo from '../component/dumb/AuthorizationNotReq/header/logo/Logo'
 import FooterComponent from '../component/dumb/AuthorizationNotReq/footer/footerComponent/FooterComponent'
 import SignInComponent from '../component/smart/AuthorizationNotReq/SignInComponent'
 
-function SignInPage() {
+function SignIn() {
   return (
     <div className='signin' style={{background:'url(images/home/Netflix-Background.jpg)',backgroundSize:'cover'}}>
         <Navbar className='navbar-sign'>
@@ -16,4 +16,4 @@ function SignInPage() {
   )
 }
 
-export default SignInPage
+export default SignIn

@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import SignHomepage from './pages/SignHomepage';
-import SignIn from './pages/Sign';
+import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Homepage from './pages/Homepage'
 
