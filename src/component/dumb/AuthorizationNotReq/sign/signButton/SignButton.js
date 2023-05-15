@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './signButton.css'
 
 function SignButton({ children, ...restProps}) {
+  const redirect = ()=>{
+      location.href = './browse'
+  }
   return (
-    <button className='sign-button' {...restProps}>{children}</button>
+    <button onClick={ redirect } className='sign-button' {...restProps}>{children}</button>
   )
 }
 

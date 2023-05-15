@@ -1,14 +1,36 @@
-.sign-input{
-    margin: 10px 0px;
-    font-size: 16px;
-    padding: 14px 14px;
-    border-radius: 4px;
-    background-color: rgb(54, 54, 54);
-    color: rgb(255, 255, 255);
-    border: none;
+.sign-input-container{
+    margin: 10px 0;
+    position: relative;
+    display:inline-block;
+    
 }
-.sign-input::placeholder { 
-    color: rgb(105, 105, 105);
-    opacity: 1.0; 
-    font-weight: 500;
-  }
+.sign-input{
+    padding: 22px 20px 10px 20px;
+    min-width : 260px;
+    border: none;
+    border-radius: 4px;
+    font-family: netflix-sans-light;
+    font-size: 16px;
+    background-color: rgb(80, 80, 80);
+    color: whitesmoke;
+}
+.floating-label-sign{
+    font-family: netflix-sans-light;
+    padding: 18px 17px;
+    pointer-events: none;
+    position:absolute;
+    left:0;
+    top:0;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    opacity:0.6;
+    color : rgb(182, 182, 182);
+}
+.sign-input::placeholder {
+    opacity: 0; 
+}
+.sign-input:focus + .floating-label-sign, .sign-input:not(:placeholder-shown) + .floating-label-sign{
+    opacity: 1.0;
+    transform: scale(0.75) translateY(-30%) translateX(-5px);
+}

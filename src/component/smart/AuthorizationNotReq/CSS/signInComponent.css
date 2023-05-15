@@ -16,6 +16,7 @@
     margin-top: -5px;
 }
 .need-help{
+    font-family: netflix-sans-light;
     font-size: 13px;
 }
 .remember-me{
@@ -24,14 +25,17 @@
     background-color :rgb(165, 165, 165);
 }
 .remember-me-text{
+    font-family: netflix-sans-light;
     font-size: 13px;
 }
 .checkbox{
+    
     display: flex;
     align-items: center;
 }
 .signup{
-    margin-top: 60px;
+    font-family: netflix-sans-light;
+    margin: 10px 0 30px 0;
     display: flex;
     align-items: center;
     font-size: 17px;
@@ -55,7 +59,8 @@
     text-decoration: underline;
 }
 .learn-more-text{
-    font-size: 14px;
+    font-family: netflix-sans-light;
+    font-size: 13px;
     color : grey;
 }
 .learnmore{

@@ -10,12 +10,12 @@ export default function SignInComponent() {
       <SignTitle >Sign In</SignTitle>
       <SignInput 
         type='text'
-        placeholder='Email or phone number'
-        />
+        placeholder='Email'
+        >Email Id</SignInput>
         <SignInput 
         type='password'
         placeholder='Password'
-        />
+        >Password</SignInput>
         <SignButton>Sign In</SignButton>
         <div className='rem-container'>
           <div className='checkbox'>

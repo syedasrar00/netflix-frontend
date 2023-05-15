@@ -1,8 +1,11 @@
 import React from 'react'
 import './signInput.css'
 
-export default function SignInput({ ...restProps}) {
+export default function SignInput({ children, placeholder, ...restProps}) {
   return (
-    <input className='sign-input' {...restProps}/>
+    <div className='sign-input-container' >
+      <input className='sign-input' placeholder={placeholder} {...restProps}/>
+      <span class="floating-label-sign">{children}</span>
+    </div>
   )
 }

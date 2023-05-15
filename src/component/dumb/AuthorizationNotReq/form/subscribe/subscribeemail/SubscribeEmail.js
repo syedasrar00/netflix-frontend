@@ -1,8 +1,11 @@
 import React from 'react'
 import './subscribeEmail.css'
 
-export default function SubscribeEmail({ ...restProps }) {
+export default function SubscribeEmail({ placeholder ,...restProps }) {
   return (
-    <input className='subscribe-email' {...restProps}/>
+    <div className='email-box-container'>
+      <input className='subscribe-email' placeholder={placeholder} {...restProps}/>
+      <span class="floating-label">{placeholder}</span>
+    </div>
   )
 }

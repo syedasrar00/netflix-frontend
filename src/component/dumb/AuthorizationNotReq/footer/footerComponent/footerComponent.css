@@ -1,8 +1,9 @@
 .footer-section{
+    font-family: netflix-sans-light;
     padding: 40px 0px;
 }
 .heading-container{
-    margin: 30px 300px;
+    margin: 30px 200px;
 }
 .footer-wrapper{
     display : flex;
@@ -15,7 +16,7 @@
     gap: 30px;
 }
 .heading{
-    font-size: 20px;
+    font-size: 15px;
 }
 .footer-end{
     font-size: 15px;

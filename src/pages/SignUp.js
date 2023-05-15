@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../component/dumb/AuthorizationNotReq/header/navbar/NavBar'
 import Logo from '../component/dumb/AuthorizationNotReq/header/logo/Logo'
 import FooterComponent from '../component/dumb/AuthorizationNotReq/footer/footerComponent/FooterComponent'
-import SignInComponent from '../component/smart/AuthorizationNotReq/SignInComponent'
+import SignUpComponent from '../component/smart/AuthorizationNotReq/SignUpComponent'
 
 function SignInPage() {
   return (
@@ -10,7 +10,7 @@ function SignInPage() {
         <Navbar className='navbar-sign'>
               <Logo maxWidthOfImage='165px' marginLeft='-13px'/>
           </Navbar>
-          <SignInComponent />
+          <SignUpComponent />
           <FooterComponent style={{backgroundColor:'black',opacity: "0.8", color:'#a0a0a0', paddingTop:'20px'}} textColor='#a0a0a0'/>
     </div>
   )

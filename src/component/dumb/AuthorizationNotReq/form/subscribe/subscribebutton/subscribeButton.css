@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #e50914;
-    width: 210px;
+    border : none;
 }
 .subscribe-btn{
     text-decoration: none;
