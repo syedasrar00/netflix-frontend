@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderWrapper from '../../dumb/AuthorizationNotReq/header/headerWrapper/HeaderWrapper'
-import Navbar from '../../dumb/AuthorizationNotReq/header/navbar/Navbar'
+import NavBar from '../../dumb/AuthorizationNotReq/header/navbar/NavBar'
 import Logo from '../../dumb/AuthorizationNotReq/header/logo/Logo'
 import FeatureWrapper from '../../dumb/AuthorizationNotReq/header/featureWrapper/FeatureWrapper'
 import FeatureTitle from '../../dumb/AuthorizationNotReq/header/featureTitle/FeatureTitle'
@@ -16,10 +16,10 @@ function HeaderComponent() {
   return (
     <>
       <HeaderWrapper>
-          <Navbar className='navbar-home'>
-              <Logo />
+          <NavBar className='navbar-sign'>
+              <Logo maxWidthOfImage='125px'/>
               <SignInButton />
-          </Navbar>
+          </NavBar>
           <FeatureWrapper className='feature-wrapper-home'>
             <FeatureTitle className='feature-title-home'>
               Unlimited movies, TV shows and more.

@@ -2,6 +2,7 @@
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 80%);
     height: 110vh;
+    width: 100vw;
 }
 
 .left-nav{
@@ -13,7 +14,7 @@
     display : flex;
     align-items: center;
     gap : 10px;
-    margin-right: 30px;
+    margin-right: 100px;
 }
 .nav-profile{
     color: white;

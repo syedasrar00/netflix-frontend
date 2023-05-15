@@ -2,11 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding : 5px 50px;
-    position: sticky;
+    width: 100vw;
+    padding : 5px 40px 5px;
+    position: fixed;
     -webkit-transition: background-color 1s ease;
     top: 0;
-    z-index: 10;
+    z-index: 5;
 }
 .scroll{
     background-color: black;

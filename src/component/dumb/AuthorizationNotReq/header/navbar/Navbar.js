@@ -1,12 +1,12 @@
 import React from 'react'
 import './navbar.css'
 
-function Navbar({ children, ...restProps}) {
+function NavBar({ children, ...restProps}) {
   return (
-    <nav {...restProps}>
+    <div {...restProps}>
         {children}
-    </nav>
+    </div>
   )
 }
 
-export default Navbar
+export default NavBar

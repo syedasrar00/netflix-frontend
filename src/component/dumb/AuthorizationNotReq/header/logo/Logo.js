@@ -1,8 +1,8 @@
 import React from 'react'
 import './logo.css'
-function Logo() {
+function Logo({ maxWidthOfImage}) {
   return (
-        <img className='logo' src='images/general/Netflix-Logo.png' alt='Netflix Logo'/>
+        <img style={{maxWidth : maxWidthOfImage}} src='images/general/Netflix-Logo.png' alt='Netflix Logo'/>
   )
 }
 
