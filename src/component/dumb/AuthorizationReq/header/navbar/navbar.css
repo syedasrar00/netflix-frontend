@@ -5,7 +5,7 @@
     width: 100vw;
     padding : 5px 40px 5px;
     position: fixed;
-    -webkit-transition: background-color 1s ease;
+    -webkit-transition: background-color .4s ease;
     top: 0;
     z-index: 5;
 }
