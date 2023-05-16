@@ -28,11 +28,11 @@ const rowData = [
         url : '/discover/movie?with_genres=27'
     },
     {
-        genre : 'romance',
+        genre : 'Romance',
         url : '/discover/movie?with_genres=10749'
     },
     {
-        genre : 'documentaries',
+        genre : 'Documentaries',
         url : '/discover/movie?with_genres=99'
     }
 ]

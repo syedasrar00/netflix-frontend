@@ -28,7 +28,7 @@ export default function SignInComponent() {
               <p className='signup-text'>New to Netflix?</p><a className='signup-link' href='/signup'>Sign up now.</a>
             </div>
             <div className='learnmore'>
-              <p className='learn-more-text'>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href='#' className='learn-more'>Learn more.</a></p>
+              <p className='learn-more-text'>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href='https://policies.google.com/terms' className='learn-more'>Learn more.</a></p>
             </div>
         </div>
     </div>

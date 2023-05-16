@@ -19,7 +19,7 @@ export default function Row({ genre, url }) {
   };
   useEffect(() => {
     fetchMovies();
-  }, [])
+  })
   
   return (
     <div className="row-wrapper">
@@ -30,7 +30,7 @@ export default function Row({ genre, url }) {
             key={item.id}
             title={item.title}
             poster={`https://image.tmdb.org/t/p/w500${item.backdrop_path}`}
-          >{console.log(item)}</MovieCard>
+          ></MovieCard>
         ))}
       </div>
     </div>

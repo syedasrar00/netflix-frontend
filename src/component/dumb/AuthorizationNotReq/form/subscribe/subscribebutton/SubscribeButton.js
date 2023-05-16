@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './subscribeButton.css'
 import { IoIosArrowForward } from 'react-icons/io'
 
 
 export default function SubscribeButton({ children, ...restProps}) {
   const redirect = () => {
-    location.href = './sign-up'
+    window.href = './sign-up'
   }
   
   return (
