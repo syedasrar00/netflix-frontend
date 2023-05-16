@@ -2,7 +2,7 @@
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 80%);
     height: 110vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .left-nav{

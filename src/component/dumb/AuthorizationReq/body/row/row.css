@@ -1,0 +1,26 @@
+.row-wrapper{
+    color : white;
+    margin-bottom : 20px;
+    z-index : 3;
+    margin-left: -1vw;
+}
+.row-genre {
+    font-family: netflix-sans-light;
+    padding-left: 5vw;
+    font-size: 1.4vw;
+    letter-spacing: 0.7;
+    margin-bottom: 0;
+    font-weight: bold;
+    z-index: 3;
+}
+.row-cards-container{
+    display: flex;
+    align-items: center;
+    color: white;
+    overflow-x: scroll;
+    z-index: 3;
+    padding-left: 5vw;
+}
+.row-cards-container::-webkit-scrollbar{
+    display: none;
+}

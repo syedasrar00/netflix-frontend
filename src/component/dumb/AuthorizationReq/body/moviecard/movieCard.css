@@ -1,0 +1,15 @@
+.movie-poster{
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.movie-card {
+    height : 140px;
+    min-width: 245px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin : 10px 3px;
+    border: none;
+    border-radius: 3px;
+}
