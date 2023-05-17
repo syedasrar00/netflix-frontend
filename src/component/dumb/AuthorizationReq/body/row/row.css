@@ -13,14 +13,45 @@
     font-weight: bold;
     z-index: 3;
 }
-.row-cards-container{
+.row-slider{
     display: flex;
     align-items: center;
     color: white;
     overflow-x: scroll;
+    scroll-behavior: smooth;
     z-index: 3;
     padding-left: 5vw;
 }
-.row-cards-container::-webkit-scrollbar{
+.row-slider::-webkit-scrollbar{
     display: none;
+}
+.side-icons-left,
+    .side-icons-right{
+    position: absolute;
+    top : 10px;
+    font-size: 60px;
+    color: rgb(153, 153, 153);
+    padding : 40px 10px;
+    
+    z-index : 40;
+    }
+.side-icons-left{
+    opacity: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 51%, rgba(0,0,0,0) 100%);
+    left : 1vw;
+}
+.side-icons-right{
+    opacity: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,1) 51%, rgba(0,0,0,0) 100%);
+    left : 93.5vw;
+}
+.side-icons-right:hover,
+    .side-icons-left:hover{
+        transition: .5s ease;
+        opacity: 1;
+    }
+.row-cards-container{
+    position: relative;
 }
