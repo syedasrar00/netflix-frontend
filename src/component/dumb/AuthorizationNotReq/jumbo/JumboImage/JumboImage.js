@@ -4,7 +4,7 @@ import './jumboImage.css'
 export default function JumboImage({ ...restProps }) {
   return (
     <div>
-        <img className='jumbo-image' {...restProps} />
+        <img className='jumbo-image' {...restProps} alt='thumbnail'/>
     </div>
   )
 }

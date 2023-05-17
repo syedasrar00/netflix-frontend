@@ -35,7 +35,7 @@ export default function JumboComponent() {
     return (
         <div className='jumbo-component'>
             {data.map((item, index) => {
-               return <JumboItem key={item.id} alignment={index%2===0} title={item.title} subTitle={item.subTitle} imageSrc={item.imageSrc} imageAlt={item.imageAlt} />
+               return <JumboItem key={item.id} alignment={index%2===0} title={item.title} subTitle={item.subTitle} imageSrc={item.imageSrc} />
             })}
         </div>
     )

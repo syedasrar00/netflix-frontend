@@ -5,7 +5,7 @@ import JumboTitle from '../jumboTitle/JumboTitle'
 import JumboSubTitle from '../jumboSubTitle/JumboSubTitle'
 import Seperator from '../../seperator/Seperator'
 
-export default function JumboItem({ children, title, subTitle, imageSrc, imageAlt, alignment, ...restProps }) {
+export default function JumboItem({ children, title, subTitle, imageSrc, alignment, ...restProps }) {
   return (
     <>
         <Seperator />
@@ -15,12 +15,12 @@ export default function JumboItem({ children, title, subTitle, imageSrc, imageAl
                 <JumboSubTitle>{subTitle}</JumboSubTitle>    
             </div>
             <div>
-                <JumboImage src={imageSrc} alt={imageAlt}></JumboImage>
+                <JumboImage src={imageSrc} ></JumboImage>
             </div>
         </div>}
         {!alignment &&<div className='jumbo-item'>
             <div>
-                <JumboImage src={imageSrc} alt={imageAlt}></JumboImage>
+                <JumboImage src={imageSrc}></JumboImage>
             </div>
             <div className='text-container'>
                 <JumboTitle >{title}</JumboTitle>
