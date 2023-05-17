@@ -7,7 +7,7 @@
     position: fixed;
     -webkit-transition: background-color .4s ease;
     top: 0;
-    z-index: 5;
+    z-index: 1000;
 }
 .scroll{
     background-color: black;
