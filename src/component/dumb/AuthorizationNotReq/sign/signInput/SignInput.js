@@ -3,9 +3,9 @@ import './signInput.css'
 
 export default function SignInput({ children, placeholder, ...restProps}) {
   return (
-    <div className='sign-input-container' >
-      <input className='sign-input' placeholder={placeholder} {...restProps}/>
-      <span class="floating-label-sign">{children}</span>
-    </div>
+    <form className='sign-input-container' >
+      <input className='sign-input' autoComplete="on" placeholder={placeholder} {...restProps}/>
+      <span className="floating-label-sign">{children}</span>
+    </form>
   )
 }

@@ -6,18 +6,23 @@ import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
 
 export default function Row({ genre, url }) {
   const [movies, setMovies] = useState([]);
-  const fetchMovies = async () => {
-    try{
-        const res = await axios.get('https://api.themoviedb.org/3'+url,{
-            params :{
-                api_key : 'bdb8f20de3adff2db33bf62809663500'
-            }
-        });
-        setMovies(res.data.results)
-    }catch(err){
-        console.log(err);
-    }
-  };
+  
+  useEffect(() => {
+      async function getMovies(){
+          try{
+          const res = await axios.get('https://api.themoviedb.org/3'+url,{
+              params :{
+                  api_key : 'bdb8f20de3adff2db33bf62809663500'
+              }
+          });
+          setMovies(res.data.results)
+        }catch(err){
+            console.log(err);
+        }
+      }
+      getMovies();
+  },[url])
+
   const[slideValue, setSlideValue] = useState(0);
   const slideRight = () =>{
     var slider = document.getElementById(genre)
@@ -36,9 +41,6 @@ export default function Row({ genre, url }) {
     setLeftVisible(slideValue > 10);
     setRightVisible(slideValue < 3500);
   },[slideValue])
-  useEffect(() => {
-    fetchMovies();
-  },[fetchMovies])
   
   return (
     <div className="row-wrapper">
